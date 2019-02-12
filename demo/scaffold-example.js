@@ -1,20 +1,6 @@
-# puke
-scaffolds a folder structure from a jsonish description
+module.exports = example
 
-# example
-`npm install puke`
-```js
-const puke = require('puke')
-
-const name = 'module-foobar'
-// in current directory (=== process.cwd())
-const foldername = name
-
-puke(foldername, scaffold(name))
-// => creates in ./<foldername>/* the directory structure
-//    specified in the `scaffold` function below
-
-function scaffold (name) {
+function example (name) {
   return {
     "node_modules": {
       "level-callerid": {
@@ -75,4 +61,3 @@ function scaffold (name) {
     `
   }
 }
-```

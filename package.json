@@ -1,0 +1,28 @@
+{
+  "name": "puke",
+  "version": "1.0.0",
+  "description": "scaffolds a folder structure from a jsonish description",
+  "main": "src/puke.js",
+  "scripts": {
+    "demo": "cd sandbox; node ../demo/demo foobar",
+    "clean": "rm -rf ./sandbox && mkdir -p sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/puke.git"
+  },
+  "keywords": [
+    "scaffold",
+    "json",
+    "boilerplate",
+    "generator"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/puke/issues"
+  },
+  "homepage": "https://github.com/serapath/puke#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
